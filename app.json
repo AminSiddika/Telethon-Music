@@ -1,0 +1,29 @@
+{
+    "name": "ZaidMusicBOT",
+    "description": "Telegram bot to stream video in telegram VC",
+    "repository": "https://github.com/subinps/VCPlayerBot",
+    "stack": "container",
+    "keywords": [
+      "telegram",
+      "bot",
+      "voicechat",
+      "music",
+      "python",
+      "pyrogram",
+      "pytgcalls",
+      "tgcalls",
+      "voip"
+    ],
+    "env": {
+      "CONFIG_FILE_URL":{
+      "description": "your config file url",
+      "required": false
+      }
+    },
+    "formation": {
+      "worker": {
+        "quantity": 1,
+        "size": "eco"
+      }
+    }
+  }
